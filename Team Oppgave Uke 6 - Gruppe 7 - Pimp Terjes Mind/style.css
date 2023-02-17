@@ -1,0 +1,75 @@
+body {
+    text-align: center;
+    background-color: pink;
+}
+
+/* IQ Progress Bar */
+.iqProgress {
+    position: fixed;
+    width: 20%; /* Change the progress bar size (width) */
+    background-color: grey;
+    border-radius: 25px;
+    right: 40.1%;
+    top: 90%;
+}
+
+.iqBar {
+    border-radius: 25px;
+    width: 50%;
+    height: 30px;
+    background-color: #04AA6D;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    font-weight: 700;
+    font-family: bold;
+}
+
+
+/* Benjamin loggView */
+
+img.char {
+    width: 300px;
+    height: 300px;
+}
+
+/* For tekst i bilde */
+.container {
+position: relative;
+text-align: center;
+}
+
+.centered {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 5px;
+    border: 2px black solid;
+    border-radius: 25px;
+  }
+
+  img.logg {
+    width: 600px;
+    height: 300px;
+  }
+
+/* plukkeoppBok view */
+
+.bookButtons {
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+}
+
+.bookButtons:hover {
+    background: linear-gradient(blue, cyan);
+    color: white;
+}
+
+/* maxIQ */
+
+.brain {
+    font-size: 300px;
+    margin-bottom: 0;
+}
